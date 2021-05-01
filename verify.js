@@ -17,8 +17,6 @@ a = await fetch("https://api.codetabs.com/v1/proxy/?quest=https://clouddata.scra
 a = await a.json()
 verify = a[0].value
 
-
-
 if (!(username == a[0].user)) { verify = 8742543587 }
 console.log(verify)
 
@@ -29,10 +27,9 @@ a = await fetch("https://api.codetabs.com/v1/proxy/?quest=https://clouddata.scra
 a = await a.json()
 verify = a[0].value
 
-
-
 if (!(username == a[0].user)) { verify = 8742543587 }
 console.log(verify)
+
 }
 alert("You are verified!")
 }
