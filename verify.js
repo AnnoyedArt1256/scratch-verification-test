@@ -2,7 +2,7 @@ async function verify() {
 
 function getusername() {
     username = prompt("What is your Scratch Username?")
-    if (prompt("Are you sure your username is " + username+"? (Y/N)")[0] == "y") {
+    if (prompt("Are you sure your username is " + username+"? (Y/N)")[0].toLowerCase() == "y") {
      console.log("username is" + username)
     } else {
      getusername()
